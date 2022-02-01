@@ -1,5 +1,28 @@
  1. What is a gitignore file and what should it include for a Java project?
-    When committing a project to the GitHUb repository, the gitignore file instructs git which files to ignore. 
+    When committing a project to the GitHUb repository, the gitignore file instructs git which files to ignore.
+    when we are generating a Java project we need .gitignore to look like this
+	
+   # Compiled class file
+   *.class
+
+   # Log file 
+   *.log
+
+   # BlueJ files
+   *.ctxt
+
+  # Mobile Tools for Java (J2ME)
+  .mtj.tmp/
+
+  # Package Files # 
+  *.jar
+  *.war
+  *.nar
+  *.ear
+  *.zip
+  *.tar.gz
+  *.rar
+ 
  2. What does fast-forward in Git mean?
     Fast forward in Git means simply moving the source branch pointer to target branch pointer without creating an extra commit
     or when you merge against a branch that is ahead of the one we have checked out. Both the branches refer to the same commit.
